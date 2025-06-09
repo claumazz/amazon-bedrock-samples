@@ -410,10 +410,11 @@ def main(
 
     # Create logs directory
     logs_dir = "logs"
-    os.makedirs(logs_dir, exist_ok=True)
+    dir_path = os.path.join(os.path.dirname(__file__), logs_dir)
+    os.makedirs(dir_path, exist_ok=True)
     
     # Setup logging
-    ts, log_file = setup_logging(logs_dir)
+    ts, log_file = setup_logging(dir_path)
     logging.info(f"Starting benchmark run: {experiment_name}")
     print(f"Logs are being saved to: {log_file}")
     

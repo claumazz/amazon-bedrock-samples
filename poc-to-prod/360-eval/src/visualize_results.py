@@ -1042,7 +1042,7 @@ def create_regional_performance_analysis(df):
 
 if __name__ == "__main__":
     OUTPUT_DIR = Path(
-        "./benchmark_results")
+        "../benchmark_results")
     logger.info(f"Starting LLM benchmark report generation with timestamp: {TIMESTAMP}")
     report_file = create_html_report(OUTPUT_DIR, TIMESTAMP)
     logger.info(f"Report generation complete: {report_file}")

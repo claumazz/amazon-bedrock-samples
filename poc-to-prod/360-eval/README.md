@@ -216,7 +216,9 @@ The reports include:
 
 
 ## Project Structure
-
+- `assets/html_template.txt`: Web report template
+- `logs`: Logs of the evaluation session are stored here
+- `benchmark_results/unprocessed`: Records that failed to be evaluated are stored here
 - `src/benchmarks_run.py`: Main benchmarking engine
 - `src/utils.py`: Utility functions for API interactions and data processing
 - `src/visualize_results.py`: Data visualization and reporting tools

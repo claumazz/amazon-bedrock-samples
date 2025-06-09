@@ -1,0 +1,10 @@
+{"model_id":"amazon.nova-pro-v1:0", "inference_profile": "standard","input_token_cost": 0.0008, "output_token_cost": 0.0032}
+{"model_id":"amazon.nova-lite-v1:0", "inference_profile": "standard","input_token_cost": 0.00006, "output_token_cost": 0.000015}
+{"model_id":"us.anthropic.claude-3-5-haiku-20241022-v1:0", "inference_profile": "standard","input_token_cost": 0.000001, "output_token_cost": 0.000015}
+{"model_id":"us.anthropic.claude-3-5-sonnet-20241022-v2:0", "inference_profile": "standard","input_token_cost": 0.003, "output_token_cost": 0.015}
+{"model_id":"us.meta.llama3-3-70b-instruct-v1:0", "inference_profile": "standard","input_token_cost": 0.00072, "output_token_cost": 0.00072}
+{"model_id":"mistral.mixtral-8x7b-instruct-v0:1", "inference_profile": "standard","input": 0.00045, "output_token_cost": 0.0007}
+{"model_id":"openai/gpt-4.1", "inference_profile": "NA","input_token_cost": 0.002, "output_token_cost": 0.012}
+{"model_id":"openai/gpt-4.1-mini", "inference_profile": "NA","input_token_cost": 0.0004, "output_token_cost": 0.0016}
+{"model_id":"openai/gpt-4o", "inference_profile": "NA","input_token_cost": 0.005, "output_token_cost": 0.02}
+{"model_id":"openai/gpt-4o-mini", "inference_profile": "NA","input_token_cost": 0.0006, "output_token_cost": 0.0024}
