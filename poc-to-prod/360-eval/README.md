@@ -1,4 +1,4 @@
-# LLM Benchmarking Framework with LLM-as-a-JURY
+# LLM Model Selection Framework with LLM-as-a-JURY
 
 A comprehensive framework for benchmarking and evaluating Large Language Models (LLMs) with a specific focus on Amazon Bedrock models.
 
